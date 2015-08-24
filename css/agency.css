@@ -857,6 +857,12 @@ ul.social-buttons li a:active {
 
 /* Table */
 
+section#agenda .text-agenda {
+    color: #2a2a2a;
+    font-size: 0.9em;
+}
+
+
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
@@ -873,20 +879,20 @@ ul.social-buttons li a:active {
 			border-right: 0;
 		}
 
-			table tbody tr:nth-child(2n + 1) {
+		table tbody tr:nth-child(2n + 1) {
 				background-color: rgba(144, 144, 144, 0.25);
-			}
+			} 
 
 		table td {
 			padding: 0.75em 0.75em;
 		}
 
 		table th {
-			color: #fff;
-			font-size: 0.9em;
+			color: #393939;
+			font-size: 1.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+			text-align: center;
 		}
 
 		table thead {
