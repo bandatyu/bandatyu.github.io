@@ -266,7 +266,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-bg2.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -881,7 +881,7 @@ section#agenda .text-agenda {
 
 		table tbody tr:nth-child(2n + 1) {
 				background-color: rgba(144, 144, 144, 0.25);
-			} 
+			}
 
 		table td {
 			padding: 0.75em 0.75em;
