@@ -20,55 +20,55 @@
   <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
   <script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
   <script type="text/javascript"></script>
-
-
+  
   <!-- ########### codigo do player #########  -->
-
+  
   <script type="text/javascript">
   //<![CDATA[
-  $(document).ready(function(){
-
-  	new jPlayerPlaylist({
-  		jPlayer: "#jquery_jplayer_1",
-  		cssSelectorAncestor: "#jp_container_1"
-  	}, [
-  		{
-  			title:"Mo&ccedila",
-  			mp3:"mp3/moca.mp3",
-  		},
-  		{
-  			title:"Bom Dia",
-  			mp3:"mp3/BomDia.mp3",
-  		},
-  		{
-  			title:"Jeito Certo",
-  			mp3:"mp3/JeitoCerto.mp3",
-  		},
-  		{
-  			title:"Não Sei Sonhar",
-  			mp3:"mp3/naoseisonhar.mp3",
-  		},
-  		{
-  			title:"Pra Ver o Sol",
-  			mp3:"mp3/PraVerOSol.mp3",
-  		},
-  		{
-  			title:"Rádio Caído",
-  			mp3:"mp3/radiocaido.mp3",
-  		}
-  	], {
-  		swfPath: "js/jplayer",
-  		supplied: "oga, mp3",
-  		wmode: "window",
-  		useStateClassSkin: true,
-  		autoBlur: false,
-  		smoothPlayBar: true,
-  		keyEnabled: true
-  	});
-  });
-  //]]>
-  </script>
+    $(document).ready(function(){
+      
+      new jPlayerPlaylist({
+        jPlayer: "#jquery_jplayer_1",
+        cssSelectorAncestor: "#jp_container_1"
+      }, [
+        {
+          title:"Mo&ccedila",
+          mp3:"mp3/moca.mp3",
+        },
+        {
+          title:"Bom Dia",
+          mp3:"mp3/BomDia.mp3",
+        },
+        {
+          title:"Jeito Certo",
+          mp3:"mp3/JeitoCerto.mp3",
+        },
+        {
+          title:"Não Sei Sonhar",
+          mp3:"mp3/naoseisonhar.mp3",
+        },
+        {
+          title:"Pra Ver o Sol",
+          mp3:"mp3/PraVerOSol.mp3",
+        },
+        {
+          title:"Rádio Caído",
+          mp3:"mp3/radiocaido.mp3",
+        }
+      ], {
+        swfPath: "js/jplayer",
+        supplied: "oga, mp3",
+        wmode: "window",
+        useStateClassSkin: true,
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true
+      });
+    });
+    //]]>
+    </script>
   <!-- ########### fim do player ############ -->
+  
 </head>
 
 <body class="text-center">
@@ -78,20 +78,20 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
         <ul class="navbar-nav">
-
+          
           <li class="nav-item mx-2">
             <a class="nav-link" href="#">Inicio</a>
           </li>
-
+          
           <li class="nav-item mx-2">
             <a class="nav-link" href="#nos">A banda</a>
           </li>
-
+          
           <li class="nav-item mx-2">
-          <!-- <a class="nav-link" href="#musicas">Músicas</a> -->
-          <a class="btn navbar-btn mx-2 btn-outline-primary" href="#musicas">Músicas</a>
+            <!-- <a class="nav-link" href="#musicas">Músicas</a> -->
+            <a class="btn navbar-btn mx-2 btn-outline-primary" href="#musicas">Músicas</a>
           </li>
-
+          
           <li class="nav-item mx-2">
             <a class="nav-link" href="#contato">Contato</a>
           </li>
@@ -102,174 +102,190 @@
   </nav>
   <!-- fim barra de navegacao -->
   <!-- inicio musicos [aBanda] -->
-  <div class="d-flex align-items-center py-5 cover section-fade-in-out" style="background-image: url(&quot;img/cover.jpg&quot;);">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 mt-5">
-          <h1 class="display-4">Banda TYU</h1>
-          <p class="lead">Goiânia - GO, desde 2014.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- <div class="py-5 section-fade-in" id="speakers" style="background-image: url(&quot;img/venue.png&quot;);"> -->
-  <div class="py-5" id="nos">
-    <div class="container p-4 my-5">
-      <div class="row">
-        <div class="col-12">
-          <h1 class="mb-3">Nós</h1>
-            <h3>
-            Bom dia, boa tarde e boa noite.
-            Nós somos uma banda nova.
-            Somos a velha e boa música.
-            Um ilegítimo punk-folk-indie-rock, pautado na falta de foco e focado no cinismo da "Liberdade Poética".
-            Somos a soma de idéias loucas.
-            A cara do covarde, a ascensorista do ônibus.
-            O coletivo de solidão.
-            A indignação do voto em branco.
-            O mameluco, o cafuzo e o mestiço.
-            Somos a melhor ideia que ninguém teve.
-            Somos quatro e somos um.
-            Somos a banda TYU.
-          </h3>
-        </div>
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-6 col-md-6" id="aBanda">
-          <a href="#aBanda">
-          <img src="img/adriano.jpg" class="center-block img-fluid my-3 shadowed" width="300">
-          <h3 class="mb-0"><b>Adriano Oliveira</b></h3>
-          <p class="text-muted">Guitarra</p>
-          </a>
-        </div>
-
-        <div class="col-lg-6 col-md-6">
-          <a href="#aBanda">
-          <img src="img/hudson.jpg" class="center-block img-fluid my-3 shadowed" width="300">
-          <h3 class="mb-0"><b>Hudson Bomfim</b></h3>
-          <p class="text-muted">Vocal</p>
-          </a>
-        </div>
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-6 col-md-6">
-          <!-- <a href="#"> -->
-          <img src="img/marcelo.jpg" class="center-block img-fluid my-3 shadowed" width="300">
-          <h3 class="mb-0"><b>Marcelo Constantino</b></h3>
-          <p class="text-muted">Baixo</p>
-          <!-- </a> -->
-        </div>
-
-        <div class="col-lg-6 col-md-6">
-          <!-- <a href="#"> -->
-          <img src="img/tyago.jpg" class="center-block img-fluid my-3 shadowed" width="300">
-          <h3 class="mb-0"><b>Tyago de Paula</b></h3>
-          <p class="text-muted">Bateria</p>
-          <!-- </a> -->
-        </div>
-    </div>
-  </div>
-</div>
-
-
-
-  <!-- MUSICAS ####################################### -->
-
-  <div class="py-5" id="musicas">
-    <div class="container">
-
-      <!-- PLAYER  -->
-      <div class="row">
-        <div class="col-lg-6 col-md-6">
-
-          <h1 class="mb-3">Músicas</h1>
-          <div id="jquery_jplayer_1" class="jp-jplayer"></div>
-          <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
-            <div class="jp-type-playlist">
-              <div class="jp-gui jp-interface">
-                <div class="jp-controls">
-                  <button class="jp-previous" role="button" tabindex="0">previous</button>
-                  <button class="jp-play" role="button" tabindex="0">play</button>
-                  <button class="jp-next" role="button" tabindex="0">next</button>
-                  <button class="jp-stop" role="button" tabindex="0">stop</button>
-                </div>
-                <div class="jp-progress">
-                  <div class="jp-seek-bar">
-                    <div class="jp-play-bar"></div>
-                  </div>
-                </div>
-                <div class="jp-volume-controls">
-                  <button class="jp-mute" role="button" tabindex="0">mute</button>
-                  <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
-                  <div class="jp-volume-bar">
-                    <div class="jp-volume-bar-value"></div>
-                  </div>
-                </div>
-                <div class="jp-time-holder">
-                  <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
-                  <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
-                </div>
-                <div class="jp-toggles">
-                  <button class="jp-repeat" role="button" tabindex="0">repeat</button>
-                  <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
-                </div>
-              </div>
-              <div class="jp-playlist">
-                <ul>
-                  <li>&nbsp;</li>
-                </ul>
-              </div>
-              <div class="jp-no-solution"></div>
-            </div>
+  <!-- <div class="d-flex align-items-center py-5 cover section-fade-in-out" style="background-image: url(&quot;img/cover.jpg&quot;);"> -->
+    <div class="d-flex align-items-center py-5 cover" id="capa">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-5">
+            <h1 class="display-4">Banda TYU</h1>
+            <p class="lead">Goiânia - GO, desde 2014.</p>
+            <!-- ****** -->
+            
+            <!-- ******* -->
           </div>
         </div>
-        <!-- downloads -->
-        <div class="col-lg-6 col-md-6">
-          <h1 class="mb-3">Download</h1>
-          <p>Faça o download das músicas do nosso primeiro EP clicando <a href="https://drive.google.com/file/d/0B6NWxSzqtTCaOEtUZXdoa2thZ00/view?usp=sharing">AQUI</a>    .</p>
-        </div>
-      </div>
-      <!-- PLAYER -->
-    </div>
-</div>
-
-
-  <!-- Footer -->
-  <footer class="text-md-left text-center p-4" id="contato">
-    <div class="container">
-      <div class="row">
-        <div class="my-3 col-lg-4 col-md-6">
-          <h3>Contato</h3>
-          <p class="text-muted">bandatyu@gmail.com</p>
-        </div>
-
-        <div class="col-lg-1"> </div>
-        <div class="my-4 col-lg-4">
-          <h3>Siga-nos</h3>
-          <a href="https://www.facebook.com/bandatyu" target="blank"><i class="fa fa-facebook-square text-muted fa-3x m-2"></i></a>
-          <a href="https://www.instagram.com/bandatyu" target="blank"><i class="fa fa-3x fa-instagram text-muted m-2"></i></a>
-          <a href="https://twitter.com/BandaTYU" target="blank"><i class="fa fa-3x fa-twitter m-2 text-muted"></i></a>
-          <a href="https://www.youtube.com/channel/UC76y7NDg8tumJVDVRikejgA" target="blank"><i class="fa fa-3x text-muted fa-youtube-play m-2"></i></a>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <p class="text-muted">© Copyright 2019 Banda TYU - All rights reserved. </p>
-        </div>
       </div>
     </div>
-  </footer>
-
-  <!-- JavaScript dependencies -->
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="js/smooth-scroll.js"></script>
-
+    <!-- <div class="py-5 section-fade-in" id="speakers" style="background-image: url(&quot;img/venue.png&quot;);"> -->
+      <div class="py-5" id="nos">
+        <div class="container p-4 my-5">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="mb-3">Nós</h1>
+              <h3>
+                Bom dia, boa tarde e boa noite.
+                Nós somos uma banda nova.
+                Somos a velha e boa música.
+                Um ilegítimo punk-folk-indie-rock, pautado na falta de foco e focado no cinismo da "Liberdade Poética".
+                Somos a soma de idéias loucas.
+                A cara do covarde, a ascensorista do ônibus.
+                O coletivo de solidão.
+                A indignação do voto em branco.
+                O mameluco, o cafuzo e o mestiço.
+                Somos a melhor ideia que ninguém teve.
+                Somos quatro e somos um.
+                Somos a banda TYU.
+              </h3>
+            </div>
+          </div>
+          
+          <div class="row">
+            
+            <div class="col-lg-6 col-md-6" id="aBanda">
+              <a href="#aBanda">
+                <img src="img/adriano.jpg" class="center-block img-fluid my-3 shadowed" width="300">
+                <h3 class="mb-0"><b>Adriano Oliveira</b></h3>
+                <p class="text-muted">Guitarra</p>
+              </a>
+            </div>
+            
+            <div class="col-lg-6 col-md-6">
+              <a href="#aBanda">
+                <img src="img/hudson.jpg" class="center-block img-fluid my-3 shadowed" width="300">
+                <h3 class="mb-0"><b>Hudson Bomfim</b></h3>
+                <p class="text-muted">Vocal</p>
+              </a>
+            </div>
+          </div>
+          
+          <div class="row">
+            
+            <div class="col-lg-6 col-md-6">
+              <!-- <a href="#"> -->
+                <img src="img/marcelo.jpg" class="center-block img-fluid my-3 shadowed" width="300">
+                <h3 class="mb-0"><b>Marcelo Constantino</b></h3>
+                <p class="text-muted">Baixo</p>
+                <!-- </a> -->
+              </div>
+              
+              <div class="col-lg-6 col-md-6">
+                <!-- <a href="#"> -->
+                  <img src="img/tyago.jpg" class="center-block img-fluid my-3 shadowed" width="300">
+                  <h3 class="mb-0"><b>Tyago de Paula</b></h3>
+                  <p class="text-muted">Bateria</p>
+                  <!-- </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+          <!-- MUSICAS ####################################### -->
+          
+          <div class="py-5" id="musicas">
+            <div class="container">
+              
+              <!-- PLAYER  -->
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  
+                  <h1 class="mb-3">Músicas</h1>
+                  <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                  <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                    <div class="jp-type-playlist">
+                      <div class="jp-gui jp-interface">
+                        <div class="jp-controls">
+                          <button class="jp-previous" role="button" tabindex="0">previous</button>
+                          <button class="jp-play" role="button" tabindex="0">play</button>
+                          <button class="jp-next" role="button" tabindex="0">next</button>
+                          <button class="jp-stop" role="button" tabindex="0">stop</button>
+                        </div>
+                        <div class="jp-progress">
+                          <div class="jp-seek-bar">
+                            <div class="jp-play-bar"></div>
+                          </div>
+                        </div>
+                        <div class="jp-volume-controls">
+                          <button class="jp-mute" role="button" tabindex="0">mute</button>
+                          <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                          <div class="jp-volume-bar">
+                            <div class="jp-volume-bar-value"></div>
+                          </div>
+                        </div>
+                        <div class="jp-time-holder">
+                          <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                          <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                        </div>
+                        <div class="jp-toggles">
+                          <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                          <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+                        </div>
+                      </div>
+                      <div class="jp-playlist">
+                        <ul>
+                          <li>&nbsp;</li>
+                        </ul>
+                      </div>
+                      <div class="jp-no-solution"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- downloads -->
+                <div class="col-lg-6 col-md-6">
+                  <h1 class="mb-3">Download</h1>
+                  <p>Faça o download das músicas do nosso primeiro EP clicando <a href="https://drive.google.com/file/d/0B6NWxSzqtTCaOEtUZXdoa2thZ00/view?usp=sharing">AQUI</a>    .</p>
+                </div>
+              </div>
+              <!-- PLAYER -->
+            </div>
+          </div>
+          
+          
+          <!-- Footer -->
+          <footer class="text-md-left text-center p-4" id="contato">
+            <div class="container">
+              <div class="row">
+                <div class="my-3 col-lg-4 col-md-6">
+                  <h3>Contato</h3>
+                  <p class="text-muted">bandatyu@gmail.com</p>
+                </div>
+                
+                <div class="col-lg-1"> </div>
+                <div class="my-4 col-lg-4">
+                  <h3>Siga-nos</h3>
+                  <a href="https://www.facebook.com/bandatyu" target="blank"><i class="fa fa-facebook-square text-muted fa-3x m-2"></i></a>
+                  <a href="https://www.instagram.com/bandatyu" target="blank"><i class="fa fa-3x fa-instagram text-muted m-2"></i></a>
+                  <a href="https://twitter.com/BandaTYU" target="blank"><i class="fa fa-3x fa-twitter m-2 text-muted"></i></a>
+                  <a href="https://www.youtube.com/channel/UC76y7NDg8tumJVDVRikejgA" target="blank"><i class="fa fa-3x text-muted fa-youtube-play m-2"></i></a>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="text-muted">© Copyright 2019 Banda TYU - All rights reserved. </p>
+                </div>
+              </div>
+            </div>
+          </footer>
+          
+          <!-- JavaScript dependencies -->
+          <script src="js/jquery-3.3.1.min.js"></script>
+          <script src="js/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+          <script src="js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+          <script src="js/smooth-scroll.js"></script>
+          
+          <!-- ####################################### -->
+          <script type="text/javascript" src="js/jquery.backstretch.js"></script>
+          <script>
+            $(".cover").backstretch([
+            "img/cover.jpg",
+            "img/show1.jpg",
+            "img/show2.jpg",
+            "img/show3.jpg",
+            "img/show4.jpg"
+            ], {fade: 750, duration: 3000});
+            </script>
+          <!-- ##### -->
 </body>
 </html>
